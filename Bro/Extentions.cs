@@ -13,5 +13,17 @@ namespace Bro
 
             return false;
         }
+
+        public void Foo(int value)
+        {
+            if (value % 2 == 0)
+            {
+                Console.WriteLine("foo");
+            }
+            else
+            {
+                Console.WriteLine("baz");
+            }
+        }
     }
 }

@@ -6,7 +6,16 @@ namespace LeetCode
     {
         public string GetFooBaz(int value)
         {
-            return string.Empty;
+            if (value % 5 == 0)
+            {
+                return "foo";
+            }
+            else if (value % 5 > 0)
+            {
+                return "baz";
+            }
+
+            return "foobaz";
         }
     }
 }

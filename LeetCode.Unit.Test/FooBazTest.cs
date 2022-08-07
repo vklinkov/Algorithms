@@ -3,12 +3,16 @@ using Xunit;
 
 namespace LeetCode.Unit.Test
 {
-    public class UnitTest1
+    public class FooBazTest
     {
         [Fact]
-        public void Test1()
+        public void ShouldreturnEmptyString()
         {
+            var fooBaz = new FooBaz();
 
+            var res = fooBaz.GetFooBaz(0);
+
+            Assert.Equal(string.Empty, res + "ok");
         }
     }
 }

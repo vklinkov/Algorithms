@@ -46,4 +46,4 @@ jobs:
           dotnet build
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
       - name: Test report
-        run: dotnet test --collect "Code Coverage"
+        run: dotnet test --no-build --collect "Code Coverage"

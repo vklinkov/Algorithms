@@ -6,7 +6,7 @@ namespace LeetCode
     {
         public int GetFooBaz(string value)
         {
-            var result = 0;
+            var result = 5;
 
             if (value == "foo")
             {

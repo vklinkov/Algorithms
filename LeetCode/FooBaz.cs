@@ -6,6 +6,7 @@ namespace LeetCode
     {
         public string GetFooBaz(int value)
         {
+            Console.WriteLine("-- ok");
             if (value % 5 == 0)
             {
                 return "foo";

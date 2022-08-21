@@ -9,9 +9,9 @@ namespace LeetCode.Test
         public void ShouldReturFoo()
         {
             var fooBaz = new FooBaz();
-            var res = fooBaz.GetFooBaz(0);
+            var res = fooBaz.GetFooBaz("foo");
 
-            Assert.Equal("foo", res);
+            Assert.Equal(1, res);
         }
     }
 }

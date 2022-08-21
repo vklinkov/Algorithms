@@ -4,18 +4,20 @@ namespace LeetCode
 {
     public class FooBaz
     {
-        public string GetFooBaz(int value)
+        public int GetFooBaz(string value)
         {
-            if (value % 5 == 0)
+<<<<<<< HEAD
+            var result = 5;
+=======
+            var result = 0;
+>>>>>>> 49432ce (add simple case)
+
+            if (value == "foo")
             {
-                return "foo";
-            }
-            else if (value % 5 > 0)
-            {
-                return "baz";
+                result = 1;
             }
 
-            return "foobaz";
+            return result;
         }
     }
 }
